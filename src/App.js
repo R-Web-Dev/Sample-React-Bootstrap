@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Contacts from './Components/Contacts';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/contacts' component={Contacts} />
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 }

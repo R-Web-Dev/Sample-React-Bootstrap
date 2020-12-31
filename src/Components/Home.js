@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col, Container, Row, Button } from 'react-bootstrap';
 import Slider from './Slider';
 import home from '../home.jpg';
+import Jumbotron from './Jumbotron';
 
 
 
@@ -47,7 +48,27 @@ const Home = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                    
+                </Row>
+            </Container>
+            <Jumbotron />
+            <Container style={{marginBottom: '30px'}}>
+                <Row>
+                    <Col md={7} >
+                        <img src={home} height={300}/>
+                    </Col>
+                    <Col md={5} >
+                        <h2>Sample react-bootstrap</h2>
+                        <p>
+                            Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla. Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla. Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla. Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla.Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla. Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla. Lorem ipsum dolor amet. Lorem ipsum dolor 
+                            amet non commodo nulla
+                        </p>
+                    </Col>
                 </Row>
             </Container>
        </>
